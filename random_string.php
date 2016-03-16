@@ -9,7 +9,7 @@
 	//Defining The function to generate a randomised string
 	function password_rand( $total = 6 ) 
 	{
-		$string = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+		$string = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_-=+;:,.?";
 		$pass = substr( str_shuffle( $string ), 0, $total );
 		
 		return $pass;
